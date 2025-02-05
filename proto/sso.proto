@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package github.com_AlmasNurbayev_sso_proto;
 
-option go_package = "generated/sso"; //подпапка для сгенерированных файлов
+option go_package = "generated/ssov1"; //подпапка для сгенерированных файлов
 
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
